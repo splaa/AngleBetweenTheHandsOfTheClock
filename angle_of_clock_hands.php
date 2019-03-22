@@ -53,6 +53,7 @@
 			return 360 / 60 * $this->minutes;
 		}
 
+
 	}
 
 
@@ -61,12 +62,14 @@
 		return abs($time->getAngleHourHand() - $time->getAngleMinuteHand());
 	}
 
-	$time = new Time(23, 40);
+	$time = new Time(10, 47);
 
 	$angle = angleOfClockHands($time);
 
 
 	//TODO-splaa: Написать тесты
+	//TODO-splaa: Добавить метод angleOfClockHands() в TimeClass
+	//TODO-splaa: Добавить __toString метод в TimeClass
 
 	echo '-------------------------------' . PHP_EOL;
 	echo 'Угол минутной трелки : ' . $time->getAngleMinuteHand() . PHP_EOL;
