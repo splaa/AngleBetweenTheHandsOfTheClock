@@ -62,7 +62,8 @@
 		return abs($time->getAngleHourHand() - $time->getAngleMinuteHand());
 	}
 
-	$time = new Time(10, 47);
+//	$time = new Time(10, 47);
+	$time = new Time(3, 47);
 
 	$angle = angleOfClockHands($time);
 

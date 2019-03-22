@@ -10,3 +10,7 @@
 - https://www.hackerrank.com/
 - http://www.codewars.com/
 - http://exercism.io/
+
+
+- [Алгоритмы поиска в строке](https://habr.com/ru/post/111449/)
+- [База знаний Хекслета](https://ru.hexlet.io/knowledge)
